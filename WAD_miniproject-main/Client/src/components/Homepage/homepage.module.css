@@ -1,0 +1,27 @@
+.container{
+    margin: 2rem;
+    min-height: 400px;
+    /* height: 400px; */
+    /* background-color: antiquewhite; */
+}
+
+.bookrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    /* overflow-x: scroll; */
+}
+
+.book__box{
+    display: inline-block;
+    width: 178px;
+    margin:1rem;
+}
+
+@media (max-width:768px) {
+    /* .bookrow{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } */
+}
